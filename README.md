@@ -76,5 +76,6 @@ The following libraries have been used on the frontend
 * [SemanticUi](https://semantic-ui.com/) -  CSS framework to style the components
 * [axios](https://github.com/axios/axios) - form making http requests
 
-By
-Mayank Yadav
+
+### Created By
+## Mayank Yadav

@@ -1,0 +1,21 @@
+#root {
+  height: 80vh;
+}
+
+.word-list {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  height: auto;
+  max-height: 40em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.ui.grid{
+  margin-top: 1em;
+}
+
+.ui.form{
+  padding-top: 15em;
+}

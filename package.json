@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  } ,
   "scripts": {
-    "dev": "NODE_ENV=development yarn start",
-    "build": "NODE_ENV=production cd client && yarn build && cd .. && yarn start",
-    "start": "nodemon server/index.js",
+    "install:server": "cd server && yarn install",
+    "install:client": "cd client && yarn install && yarn build",
     "lint": "eslint ."
   },
   "keywords": [],
@@ -27,5 +29,4 @@
       "pre-commit": "yarn lint"
     }
   }
-
 }

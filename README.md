@@ -1,5 +1,5 @@
 # Text Word Sort
-Simple app to display to most N frequently occuring words in the given text.
+Simple app to display to most N frequently occuring words in [this file](https://terriblytinytales.com/test.txt).
 
 ![word-list](https://i.imgur.com/z6QrwB9.gif)
 

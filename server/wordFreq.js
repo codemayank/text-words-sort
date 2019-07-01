@@ -1,7 +1,6 @@
 
 function divideWords(str) {
-  const strArr = str.split(/[\W0-9]+/g);
-
+  const strArr = str.split(/\b[\W0-9]+\b/g);
   const wordFreq = strArr.reduce((acc, elm) => {
     const wordIndex = acc.findIndex(x => x.word.toUpperCase() === elm.toUpperCase());
     if (wordIndex > -1) {
